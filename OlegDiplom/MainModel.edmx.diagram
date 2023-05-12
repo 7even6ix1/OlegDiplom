@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b735038dd392454b99c8459b996241aa" Name="Diagram1">
+        <EntityTypeShape EntityType="OlegTrushDiplomModel.GroupCars" Width="1.5" PointX="12.25" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OlegTrushDiplomModel.Groups" Width="1.5" PointX="3" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="OlegTrushDiplomModel.GroupWorkers" Width="1.5" PointX="5.25" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="OlegTrushDiplomModel.GunModel" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="OlegTrushDiplomModel.Guns" Width="1.5" PointX="3" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="OlegTrushDiplomModel.GunType" Width="1.5" PointX="1.5" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="OlegTrushDiplomModel.LoginData" Width="1.5" PointX="5.25" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OlegTrushDiplomModel.Marks" Width="1.5" PointX="7.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="OlegTrushDiplomModel.ModelCars" Width="1.5" PointX="7.75" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OlegTrushDiplomModel.Objects" Width="1.5" PointX="6" PointY="16.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OlegTrushDiplomModel.ObjectTypes" Width="1.5" PointX="3.75" PointY="16.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="OlegTrushDiplomModel.Posts" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="OlegTrushDiplomModel.Prichini" Width="1.5" PointX="6" PointY="13.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="OlegTrushDiplomModel.Sostoyanie" Width="1.5" PointX="7.75" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="OlegTrushDiplomModel.sysdiagrams" Width="1.5" PointX="9.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OlegTrushDiplomModel.WorkerGun" Width="1.5" PointX="5.25" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="OlegTrushDiplomModel.WorkersObjects" Width="1.5" PointX="8.25" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="OlegTrushDiplomModel.CarsView" Width="1.5" PointX="11.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OlegTrushDiplomModel.WorkersInGroupsView" Width="1.5" PointX="12.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OlegTrushDiplomModel.WorkersOnObjectsView" Width="1.5" PointX="13.75" PointY="10.75" IsExpanded="true" />
+        <AssociationConnector Association="OlegTrushDiplomModel.FK_GroupCars_Groups" ManuallyRouted="false" />
+        <AssociationConnector Association="OlegTrushDiplomModel.FK_GroupWorkers_Groups" ManuallyRouted="false" />
+        <AssociationConnector Association="OlegTrushDiplomModel.FK_GunModel_GunType" ManuallyRouted="false" />
+        <AssociationConnector Association="OlegTrushDiplomModel.FK_Guns_GunModel" ManuallyRouted="false" />
+        <AssociationConnector Association="OlegTrushDiplomModel.FK_WorkerGun_Guns" ManuallyRouted="false" />
+        <AssociationConnector Association="OlegTrushDiplomModel.FK_Objects_ObjectTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="OlegTrushDiplomModel.FK_WorkersObjects_Objects" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="OlegTrushDiplomModel.ObjectsView" Width="1.5" PointX="4.375" PointY="10.75" />
+        <EntityTypeShape EntityType="OlegTrushDiplomModel.Workers" Width="1.5" PointX="3" PointY="4.375" />
+        <AssociationConnector Association="OlegTrushDiplomModel.FK_GroupWorkers_Workers" />
+        <AssociationConnector Association="OlegTrushDiplomModel.FK_LoginData_Workers" />
+        <AssociationConnector Association="OlegTrushDiplomModel.FK_Workers_Posts" />
+        <AssociationConnector Association="OlegTrushDiplomModel.FK_WorkerGun_Workers" />
+        <AssociationConnector Association="OlegTrushDiplomModel.FK_WorkersObjects_Workers" />
+        <EntityTypeShape EntityType="OlegTrushDiplomModel.Calls" Width="1.5" PointX="8.25" PointY="14.875" />
+        <EntityTypeShape EntityType="OlegTrushDiplomModel.Cars" Width="1.5" PointX="10" PointY="1.625" />
+        <AssociationConnector Association="OlegTrushDiplomModel.FK_Calls_Objects" />
+        <AssociationConnector Association="OlegTrushDiplomModel.FK_Calls_Prichini" />
+        <AssociationConnector Association="OlegTrushDiplomModel.FK_Cars_Marks" />
+        <AssociationConnector Association="OlegTrushDiplomModel.FK_Cars_ModelCars" />
+        <AssociationConnector Association="OlegTrushDiplomModel.FK_Cars_Sostoyanie" />
+        <AssociationConnector Association="OlegTrushDiplomModel.FK_GroupCars_Cars" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
